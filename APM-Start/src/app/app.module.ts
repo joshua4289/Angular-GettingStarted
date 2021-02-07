@@ -2,10 +2,13 @@ import { BrowserModule } from '@angular/platform-browser'; // this defines impor
 import { NgModule } from '@angular/core'; // this is to register as an angular module 
 
 import { AppComponent } from './app.component';
+import { ProductListComponent } from './products/product-list.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductListComponent,
   ],
   imports: [BrowserModule], // for external dependencies
   bootstrap: [AppComponent]
